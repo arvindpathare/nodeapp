@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh ssh ec2-user@52.66.201.253 <<EOF
+ssh ec2-user@52.66.201.253 <<EOF
     cd ~/node-app
     git pull origin master
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
