@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh -T ec2-user@52.66.201.253 <<EOF
+ssh ec2-user@52.66.201.253 <<EOF
     cd ~/node-app
 	yum install git -y
     git pull origin master
